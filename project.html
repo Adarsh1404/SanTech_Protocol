@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SanTech Protocol</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Fauna+One&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,900;1,300&display=swap" rel="stylesheet">
+
+<style>
+    .project{
+        margin-top: 1rem;
+    }
+</style>
+</head>
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html"><h2>SanTech</h2></a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+
+
+
+
+    <section class="project">
+        <div class=" container project__container">
+        <article class="projects">
+        <div class="project__image">
+            <img src="./images/crowds.jpeg"/>
+        </div>
+        <div class="project__info">
+         <h3><a href="https://sage-frangollo-98307d.netlify.app/">Crowdfund Web3 Website <small>click me</small></a></h3>
+        <p>In this website, we created a campaign for Crowdfunding.</p>
+        <a href="project.html" class="btn btn-primary">Learn More</a>
+        </div>
+        </article>
+    
+        <article class="projects">
+            <div class="project__image">
+                <img src="./images/ethereum.jpeg"/>
+            </div>
+            <div class="project__info">
+            <h3><a href="https://sprightly-biscochitos-00f2ed.netlify.app/">Ethereum Web3 Website <small>click me</small></a></h3>
+            <p>In this website, we sent ethereum across the world. </p>
+            <a href="project.html" class="btn btn-primary">Learn More</a>
+            </div>
+            </article>
+       
+            <article class="projects">
+                <div class="project__image">
+                    <img src="./images/movie.jpeg"/>
+                </div>
+                <div class="project__info">
+                 <h3><a href="https://delightful-cocada-a3f38a.netlify.app/">Moviex Web3 Website <small>click me</small></a></h3>
+                <p>In this website, user can watch the latest movie trailer</p>
+                <a href="project.html" class="btn btn-primary">Learn More</a>
+                </div>
+                </article>
+               
+        </div>
+       </section>
+    
+
+
+
+
+
+    
+   <footer class="footer">
+    <div class="container footer__container">
+        <div class="footer__1">
+                 <a href="index.html" class="footer__logo"><h4>SanTech</h4></a>
+                 <p>SanTech is a IT Company </br> and work on Web3.</p>
+                 <p>Registration no</p>
+        </div>
+     <div class="footer__2"> 
+         <h4>Permalinks</h4>
+         <ul class="permalinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="project.html">Project</a></li>
+            <li><a href="contact.html">Contact</a></li>
+         </ul>
+     </div>
+
+     <div class="footer__3">
+        <h4>Primacy</h4>
+        <ul class="Privacy">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms and condition</a></li>
+            <li><a href="#">Registered By</a></li>
+        </ul>
+     </div>
+
+     <div class="footer__4">
+    <h4>Contact Us</h4>
+    <div>
+        <p>+91 7903848803</p>
+        <p>adarshnit420@gmail.com</p>
+    </div>
+
+    <ul class="footer__socials">
+      <li>
+        <a href="#"><i class="uil uil-facebook-f"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="uil uil-instagram-alt"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="uil uil-twitter"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+      </li>
+    
+    </ul>
+     </div> 
+    </div>
+    <div class="footer__copyright">
+       <small>Copyright &copy; Adarsh Kumar</small>
+    </div>
+
+   </footer>
+
+
+  
+   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+   <script src="./main.js"></script>
+
+   <script>
+     var swiper = new Swiper(".swiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      //when window width is >= 600px
+      breakpoints: {
+        600: {
+            slidesPerView: 2,
+        }
+      }
+    });
+   </script>
+
+</body>
+</html>
